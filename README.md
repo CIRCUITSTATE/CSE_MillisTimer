@@ -3,7 +3,7 @@
 
 **CSE_MillisTimer** is a simple timer library from *CIRCUITSTATE Electronics* for the Arduino platform. It uses the `millis()` function to create a timer instance that you can use for controlled timing of events in your code. You just need to create a timer instance with the time period needed, and initialize it anywhere in your code. Then you can call the `isElapsed()` function to check if the timer has elapsed or not. This library makes it easy to use the `millis()` function without saving the value in a variable and comparing it by yourself. Check out the examples to see how it works.
 
-CSE_MillisTimer is a stripped-down version of the more powerful **ptScheduler** library. If you want more control over your timing, use the ptScheduler library instead.
+CSE_MillisTimer is a stripped-down version of the more powerful [**ptScheduler**](https://github.com/vishnumaiea/ptScheduler) library. If you want more control over your timing, use the ptScheduler library instead.
 
 ## Example
 
@@ -38,5 +38,5 @@ Please see the [API.md](/docs/API.md) file for the documentation.
 
 ## References
 
-- [ptScheduler : A task scheduler library for Arduino](https://github.com/CIRCUITSTATE/ptScheduler) - GitHub
+- [ptScheduler : A task scheduler library for Arduino](https://github.com/vishnumaiea/ptScheduler) - GitHub
 - [ptScheduler : A Minimal Cooperative Task Scheduler for Arduino](https://www.circuitstate.com/tutorials/ptscheduler-a-minimal-cooperative-task-scheduler-for-arduino/) - CIRCUITSTATE
