@@ -1,6 +1,7 @@
 
 //======================================================================================//
 /**
+ * 
  * @file CSE_MillisTimer.h
  * @brief Main header file for the CSE_MillisTimer library.
  * @date +05:30 11:30:34 PM 07-08-2023, Monday
@@ -30,7 +31,7 @@ class CSE_MillisTimer {
     CSE_MillisTimer (uint32_t period, bool toReverse = false);  // Constructor
     void start (bool startState = false); // Start the timer.
     bool isElapsed(); // Check if the timer has elapsed.
-    bool isRunning(); // Check if the timer is running.s
+    bool isRunning(); // Check if the timer is running.
 };
 
 //======================================================================================//

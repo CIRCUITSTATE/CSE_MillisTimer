@@ -1,5 +1,17 @@
 
 //======================================================================================//
+/**
+ * 
+ * @file CSE_MillisTimer.cpp
+ * @brief Main source file for the CSE_MillisTimer library.
+ * @date +05:30 08:36:48 PM 18-05-2024, Saturday
+ * @version 0.0.1
+ * @author Vishnu Mohanan (@vishnumaiea)
+ * @par GitHub Repository: https://github.com/CIRCUITSTATE/CSE_MillisTimer
+ * @par MIT License
+ * 
+ */
+//======================================================================================//
 
 #include "CSE_MillisTimer.h"
 
