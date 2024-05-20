@@ -1,4 +1,6 @@
 
+![CSE_MillisTimer](https://socialify.git.ci/CIRCUITSTATE/CSE_MillisTimer/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
+
 # CSE_MillisTimer
 
 **CSE_MillisTimer** is a simple timer library from [*CIRCUITSTATE Electronics*](https://www.circuitstate.com/) for the Arduino platform. It uses the `millis()` function to create a timer instance that you can use for controlled timing of events in your code. You just need to create a timer instance with the time period needed, and initialize it anywhere in your code. Then you can call the `isElapsed()` function to check if the timer has elapsed or not. This library makes it easy to use the `millis()` function without saving the value in a variable and comparing it by yourself. Check out the examples to see how it works.

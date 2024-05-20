@@ -1,6 +1,4 @@
 
-![CSE_CircularBuffer](https://socialify.git.ci/CIRCUITSTATE/CSE_MillisTimer/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
-
 # CSE_MillisTimer Library API Reference
 
 Version 0.0.1, +05:30 09:01:40 PM 18-05-2024, Saturday
