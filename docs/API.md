@@ -89,6 +89,6 @@ myTimer.isRunning();
 
 None
 
-##### Returnss
+##### Returns
 
 - `bool` : `true` if the timer is running, `false` otherwise. This logic will be reversed if the constructor was called with the `toReverse` argument set to `true`.
