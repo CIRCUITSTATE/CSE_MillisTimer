@@ -19,36 +19,21 @@ Another method is to clone the GitHub repository directly into your `libraries` 
 git clone https://github.com/CIRCUITSTATE/CSE_MillisTimer.git
 ```
 
-The library can also be installed via **PlatformIO**. All officially listed Arduino listed libraries are automatically fetched by PlatformIO. Use the `lib_deps` search option to install the library.
+[**Git**](https://git-scm.com) should be installed in your computer.
 
-## Example
+The library can also be installed via [**PlatformIO**](https://platformio.org). All officially listed Arduino listed libraries are automatically fetched by PlatformIO. Use the [`lib_deps`](https://docs.platformio.org/en/latest/projectconf/sections/env/options/library/lib_deps.html) search option to install the library.
 
-Here is the basic `Hello World` example.
+## Dependencies
 
-```cpp
-#include <CSE_MillisTimer.h>
+This library does not have any external dependencies apart from the standard Arduino libraries.
 
-// Create a timer instance
-CSE_MillisTimer helloTimer (1000);  // Time period is 1000 ms.
+## Examples
 
-// Setup function runs once
-void setup() {
-  Serial.begin (115200);  // Initialize the serial port.
-  delay (2000);
-  
-  helloTimer.start(); // Start the timer.
-}
+- [**Blink**](/examples/Blink/) - Blinks an LED periodically without blocking other parts of the code.
+- [**Hello-World**](/examples/Hello-World/) - Prints a "Hello World" message to the serial monitor without blocking other code.
+- [**Serial-Graph**](/examples/Serial-Graph/) - Prints the values 3 and 0 periodically to draw a graph on the Arduino Serial Plotter.
 
-// Infinite loop
-void loop() {
-  if (helloTimer.isElapsed()) { // Check if the timer has elapsed.
-    Serial.println ("Hello World!");  // Print "Hello World!" to the serial port.
-    helloTimer.start(); // Restart the timer.
-  }
-}
-```
-
-## API Reference
+## API Documentation
 
 Please see the [API.md](/docs/API.md) file for the API reference.
 
